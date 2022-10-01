@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usetheme{AnnArbor}
+\title{\texttt{My first presentation on latex}}
+\author{B192106}
+\date{\today}
+\logo{\includegraphics[width=2cm]{manasa.jpg}}
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+\begin{frame}
+\centering
+    \textbf{Overview}\\
+    \vspace{0.2cm}
+\centering
+\textit{Personal Details}\\
+\vspace{0.2cm}
+\centering
+\textit{sem marks}\\
+\vspace{0.2cm}
+\centering
+\textit{Image}
+\end{frame}
+\begin{frame}
+\begin{block}
+\centering
+     \textbf{Name:}M.Manasa\\
+     \vspace{0.1}
+     \textbf{ID:}B192106\\
+     \vspace{0.1}
+    \textbf{Branch:}CSE\\
+    \vspace{0.1}
+    \textbf{Class:}C5\\
+    \vspace{0.1}
+    \textbf{Village:}Jakkapur\\
+     \vspace{0.1}
+    \textbf{District:}Siddipet \\
+\end{block}
+\end{frame}
+\begin{frame}
+\centering
+\textbf{Sem marks}\\
+\vspace{0.3cm}
+\begin{tabular}{|c|c|c|} \hline
+\textbf{S.NO} & \textbf{Subject}   &  \textbf{Marks}\\
+  \hline
+  \textbf{1} & \textit{English} & 98\\
+   \hline
+   \textbf{2} & \textit{Chemistry} & 97\\
+   \hline
+   \textbf{3} & \textit{calculus}& 98\\
+   \hline
+   \textbf{4} & \textit{LA} & 94\\
+   \hline
+   \textbf{5} & \textit{pps} & 97\\
+   \hline
+\end{tabular}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0]{rgukt.jpg}
+    \end{figure}
+\end{frame}
+\begin{frame}
+    \centering
+    \textbf{\huge{THANK YOU}}
+\end{frame}
+\end{document}
+
+
+
